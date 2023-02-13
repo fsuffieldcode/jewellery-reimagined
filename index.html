@@ -5,13 +5,16 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Jewellery Reimagined</title>
+		<link rel="stylesheet" href="normalise.css" />
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<nav>
-			<a href="#">Precious</a>
+			<a class="logo" href="#">Precious</a>
 			<div class="hamburger">
-				<a href="#" class="hamburger__button"></a>
+				<a href="#" class="hamburger__button"
+					><img src="img/hamburger.svg" alt=""
+				/></a>
 			</div>
 			<div class="nav-links">
 				<a href="#">Collection</a>
@@ -20,21 +23,23 @@
 			</div>
 		</nav>
 		<main>
-			<div class="profile">
-				<img src="" alt="" class="proflie__photo" />
-				<div class="profile__text">
-					<span class="profile__date">12.01</span>
-					<span class="profile__name">Elisabeth Walsh</span>
+			<div class="top-row-container">
+				<div class="profile">
+					<img src="/img/photo-1.png" alt="" class="profile__photo" />
+					<div class="profile__text">
+						<span class="profile__date">12.01</span>
+						<span class="profile__name">Elisabeth </br>Walsh</span>
+					</div>
 				</div>
-			</div>
-			<div class="header">
-				<img src="" alt="" class="header__icon" />
-				<h2>Jewellery Reimagined</h2>
-			</div>
-			<div class="brand">
-				<button class="button brand__button"><a href="">-></a></button>
-				<img class="brand__logo src="" alt="">
-				<span class="brand__text">Presented By</span>
+				<div class="header">
+					<img src="/img/diamond.svg" alt="" class="header__icon" />
+					<h2>Jewellery </br>Reimagined</h2>
+				</div>
+				<div class="brand">
+					<button class="button brand__button"><a href="">-></a></button>
+					<img class="brand__logo src="" alt="">
+					<span class="brand__text">Presented By</span>
+				</div>
 			</div>
 			<div class="left-showpiece">
 				<div class="left-showpiece__bg">
@@ -54,7 +59,9 @@
 						<div class="right-showpiece">
 							<div class="right-showpiece__bg">
 								<img src="" alt="" class="right-showpiece__image" />
-								<span class="rightshowpiece__text"></span>
+								<span class="rightshowpiece__text"
+									>Time to make somebody happy!</span
+								>
 							</div>
 						</div>
 					</div>
